@@ -1,38 +1,33 @@
-# ShoppingList
+# 🛒 Lista de Compras em Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicação de lista de compras desenvolvida com **Vue.js**, com o objetivo de praticar os principais conceitos do framework por meio de um projeto simples, funcional e bem estruturado.
 
-## Recommended IDE Setup
+O sistema permite adicionar itens, marcar como comprados, remover itens, visualizar um resumo do status da lista e organizar automaticamente os itens pendentes e concluídos.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 🚀 Funcionalidades
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Adicionar itens à lista
+- Validação para evitar itens vazios
+- Marcar itens como comprados
+- Remover itens da lista
+- Exibição de data de adição do item
+- Ordenação automática:
+  - Itens pendentes no topo
+  - Itens comprados ao final
+- Resumo com total de itens comprados e pendentes
+- Mensagem amigável quando a lista está vazia
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Tecnologias utilizadas
 
-## Project Setup
+- Vue.js 3
+- Composition API
+- Vite
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+---
